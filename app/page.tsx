@@ -1,11 +1,13 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main>
       <div className="text-6xl text-center">
         <br />
-        <a href="/archive">/archive</a>
+        <Link href="/archive">/archive</Link>
         <br /><br /><br />
-        <a href="/about/a99">about/a99</a>
+        <Link href="/about/a99">about/a99</Link>
       </div>
     </main>
   );

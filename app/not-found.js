@@ -18,7 +18,7 @@ export default function NotFound() {
       >
         Sorry, the page you requested could not be found
         <br/>
-        Code: 404 & <a href='/code/v9nf' >v9nf</a>
+        Code: 404 & <Link href='/code/v9nf' >v9nf</Link>
       </h1>
       <h4 style={{ fontSize: "26px", color: "purple" }}>
         Powered by VilmiLabs & Vilmao
@@ -28,7 +28,7 @@ export default function NotFound() {
         <br></br>
         Go back to<Link href={"/archive"}> /archive</Link>
         <br></br>
-        © 2025 <a href="https://linktr.ee/vilmao_" className='underline text-violet-500'> Vilmao</a>. All rights Reserved.
+        © 2025 <Link href="https://linktr.ee/vilmao_" className='underline text-violet-500'> Vilmao</Link>. All rights Reserved.
       </p>
     </main>
 }
